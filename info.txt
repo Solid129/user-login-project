@@ -4,8 +4,7 @@ Required Steps:
 	3. Create a virtual environment inside the project directory 
 	4. Activate the virtual environment
 	5. Install requirements using "pip3 install -r requirements.txt"
-	6. Run python app in virtual environment only
+	6. Run python app in virtual environment - "python myapp.py"
 	7. Open any web browser
-	8. type URI:"https://http://127.0.0.1:5000/login/" for login
-	9. type URI:"https://http://127.0.0.1:5000/users/" for Users Details
-
+	8. type URI:"http://127.0.0.1:5000/login/" for login
+	9. type URI:"http://127.0.0.1:5000/users/" for Users Details
