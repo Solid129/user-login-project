@@ -1,11 +1,6 @@
-from flask import Flask
-
-app = Flask(__name__)
-
-@app.route('/')
-
-def index():
-	return "Hello"
-
-if __name__=="__main__":
-	app.run(debug=True)
+bcrypt==3.1.7
+dnspython==1.16.0
+Flask==1.1.1
+Flask-Ext==0.1
+Flask-PyMongo==2.3.0
+Flask-WTF==0.14.3
