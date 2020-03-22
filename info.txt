@@ -1,3 +1,11 @@
-Data directory :: C:\Program Files\MongoDB\Server\4.2\data\
+Required Steps:
+	1. Install python 3+
+	2. Clone the github project
+	3. Create a virtual environment inside the project directory 
+	4. Activate the virtual environment
+	5. Install requirements using "pip3 install -r requirements.txt"
+	6. Run python app in virtual environment only
+	7. Open any web browser
+	8. type URI:"https://http://127.0.0.1:5000/login/" for login
+	9. type URI:"https://http://127.0.0.1:5000/users/" for Users Details
 
-<div class="g-recaptcha" data-sitekey="6Lcz8-IUAAAAADkCP9hwe5uzYp3yu8Ez8YmK2gXC"></div>
