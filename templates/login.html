@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>User Login</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+<script>
+	function recaptcha_check(){
+		if(grecaptcha.getResponse().length !== 0){
+			document.getElementById("captcha_error").innerHTML = "";
+   			return true;
+		}
+		else{
+		document.getElementById("captcha_error").innerHTML = "Please Fill captcha";
+		return false;
+		}
+	}
+</script>
+<form action="#" method="post">
+<p>Name:
+<input type="text" name="name" pattern="[A-Za-z]{0,20}" title="abc" required><br>
+Email:
+<input type="email" name="email" title="abc@example.com" required><br>
+Password:
+<input type="password" name="password" required><br>
+{{ form.recaptcha }}
+<p id="captcha_error" style="color:red;"></p>
+<input id="login_submit" onclick="return recaptcha_check()" type="submit" value="Submit">
+<p>
+</form>	
+</body>
+</html>

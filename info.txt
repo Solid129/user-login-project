@@ -1,0 +1,3 @@
+Data directory :: C:\Program Files\MongoDB\Server\4.2\data\
+
+<div class="g-recaptcha" data-sitekey="6Lcz8-IUAAAAADkCP9hwe5uzYp3yu8Ez8YmK2gXC"></div>
